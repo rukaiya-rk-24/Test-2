@@ -1,0 +1,34 @@
+1. def func(l1):
+      l2 = []
+      for i in l1:
+        if i%2==0:
+          l2.apped(i)
+      return l2
+
+
+
+
+2.
+@timer
+def myfunc(x):
+  time.sleep(2)
+  print(math.factorial(x)
+
+    
+
+Quesn 4.
+def calculate_mean(numbers):
+    total = sum(numbers)
+    count = len(numbers)
+    mean = total / count
+    return mean
+
+
+
+Quesn 5.
+from scipy import stats
+def perform_hypothesis_test(sample1, sample2):
+    t_statistic, p_value = stats.ttest_ind(sample1, sample2)
+    return p_value
+
+ 
