@@ -16,7 +16,7 @@ def myfunc(x):
 
     
 
-Quesn 4.
+Quesn 3.
 def calculate_mean(numbers):
     total = sum(numbers)
     count = len(numbers)
@@ -25,7 +25,7 @@ def calculate_mean(numbers):
 
 
 
-Quesn 5.
+Quesn 4.
 from scipy import stats
 def perform_hypothesis_test(sample1, sample2):
     t_statistic, p_value = stats.ttest_ind(sample1, sample2)
